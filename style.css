@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 248, 248);
+}
+
+html{
+    margin: auto;
+    width: 1366px;
+     height: 100vh;
+    font-size: 10px;
+}
+
+.header{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    padding: 1rem 1rem;
+    margin-top: 1rem;
+    margin-left: 8rem;
+    
+}
+.links ul{
+    display: flex;
+    list-style: none;
+    
+}
+.links ul li {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 5rem 2rem;
+}
+.main{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    height: max-content;
+
+}
+
+.content-text{
+    margin-left: 3rem;
+    margin-top: 7rem;
+}
+.content-text h1{
+    color: rgb(32, 31, 31);
+    font-size: 7rem;
+}
+.content-text h1 span{
+    font-family:sans-serif;
+    color: darkgreen;
+    display: inline-block;
+    font-weight: 800;
+    font-size: 8rem;
+}
+.content-text p {
+    font-size: 2.2rem;
+    width: 80%;
+}
+
+.content-text button{
+    font-size:2rem;
+    margin-top: 2rem;
+    padding: 1rem 3rem;
+    border-radius: 3rem;
+    outline: 0;
+    border: none;
+    color: #fff;
+    background-color: darkgreen;
+}
+.shorts{
+    position: absolute;
+    bottom: 0;
+    margin-left: 45rem;
+
+}
+.shorts img{
+    width: auto;
+    padding: 2rem;
+    height: 150px;
+}
+.contact{
+    margin-right: 4rem;
+    margin-top: 30rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact img{
+    width: auto;
+    padding:.8rem;
+    height:35px ;
+}
